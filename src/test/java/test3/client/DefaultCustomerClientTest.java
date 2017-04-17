@@ -10,6 +10,10 @@ import java.util.Optional;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Basic tests for DefaultCustomerClient. More advanced tests could be added
+ * using tools such as EasyMock to mock the ObjectMapper and test exceptions as well as parsing errors.
+ */
 public class DefaultCustomerClientTest {
 
     private DefaultCustomerClient customerClient = new DefaultCustomerClient();

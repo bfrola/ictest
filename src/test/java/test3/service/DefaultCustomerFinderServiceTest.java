@@ -9,6 +9,10 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * Basic tests for DefaultCustomerFinderService. More advanced tests could be added
+ * using tools such as EasyMock to mock the client level and test different scenarios.
+ */
 public class DefaultCustomerFinderServiceTest {
 
     private static final Coordinates DUBLIN_COORDINATES = Coordinates.builder().latitude(53.3393).longitude(-6.2576841).build();
