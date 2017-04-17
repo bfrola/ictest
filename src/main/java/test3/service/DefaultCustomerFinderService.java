@@ -1,6 +1,5 @@
 package test3.service;
 
-import lombok.extern.log4j.Log4j;
 import test3.model.Coordinates;
 import test3.model.Customer;
 import test3.client.CustomerClient;
@@ -14,7 +13,6 @@ import java.util.stream.Collectors;
 /**
  * Spherical-distance based implementation of CustomerFinderService.
  */
-@Log4j
 public class DefaultCustomerFinderService implements CustomerFinderService {
     private static final double EARTH_RADIUS_KM = 6371.0;
     private CustomerClient customerClient;
