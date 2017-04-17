@@ -1,16 +1,20 @@
-package test2;
+package part2;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
+/**
+ * Basic tests for Item class.
+ */
 public class ItemTest {
 
     @Test
     public void testGetAllExampleInput() throws Exception {
-        assertEquals(Arrays.asList(1, 2, 3, 4),
+        Assert.assertEquals(Arrays.asList(1, 2, 3, 4),
                 Item.newInstance(Item.newInstance(Item.newInstance(1), Item.newInstance(2), Item.newInstance(Item.newInstance(3))),
                         Item.newInstance(4)).getAll());
     }
@@ -43,20 +47,5 @@ public class ItemTest {
     @Test
     public void testToStringSingleItem() throws Exception {
         assertEquals("hi", Item.newInstance("hi").toString());
-    }
-
-    @Test
-    public void testNewInstance() throws Exception {
-
-    }
-
-    @Test
-    public void testNewInstance1() throws Exception {
-
-    }
-
-    @Test
-    public void testNewInstance2() throws Exception {
-
     }
 }

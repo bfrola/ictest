@@ -1,9 +1,8 @@
-package test3.service;
+package part3.service;
 
 import org.junit.Test;
-import test3.client.DefaultCustomerClient;
-import test3.model.Coordinates;
-import test3.model.Customer;
+import part3.model.Coordinates;
+import part3.model.Customer;
 
 import java.util.List;
 

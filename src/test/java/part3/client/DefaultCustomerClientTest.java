@@ -1,8 +1,8 @@
-package test3.client;
+package part3.client;
 
 import org.junit.Test;
-import test3.model.Coordinates;
-import test3.model.Customer;
+import part3.model.Coordinates;
+import part3.model.Customer;
 
 import java.util.List;
 import java.util.Optional;

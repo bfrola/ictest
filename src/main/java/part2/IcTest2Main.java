@@ -1,4 +1,4 @@
-package test2;
+package part2;
 
 public class IcTest2Main {
     /**

@@ -1,9 +1,9 @@
-package test3;
+package part3;
 
-import test3.model.Coordinates;
-import test3.model.Customer;
-import test3.client.DefaultCustomerClient;
-import test3.service.DefaultCustomerFinderService;
+import part3.model.Coordinates;
+import part3.model.Customer;
+import part3.client.DefaultCustomerClient;
+import part3.service.DefaultCustomerFinderService;
 
 import java.util.List;
 import java.util.Optional;

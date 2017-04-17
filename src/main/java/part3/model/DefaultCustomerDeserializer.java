@@ -1,4 +1,4 @@
-package test3.model;
+package part3.model;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
